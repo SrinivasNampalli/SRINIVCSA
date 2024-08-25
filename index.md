@@ -70,7 +70,7 @@ hide: true
     
     <div class="intro">
         <p>Hi! I'm an aspiring student with a deep passion for technology and a drive to learn and grow in the field of software development. My primary focus right now is on mastering Java, a language that has captivated my interest due to its versatility and widespread use in various domains such as web development, mobile applications, and large-scale enterprise systems.</p>
-        <p>Beyond the world of coding, I have a keen interest in dirt biking. The thrill of speeding through rugged terrains on a dirt bike is unmatched, and it's one of the ways I balance my passion for technology with a love for the outdoors. These activities not only challenge me physically but also teach me discipline, focus, and perseverance—traits that are equally valuable in the tech world.</p>
+        <p>Beyond the world of coding, I have a keen interest in dirt biking. The thrill of speeding through rugged terrains on a dirt bike is unmatched, and it's one of the ways I balance my passion for technology with a love for the outdoors. These activities not only challenge me physically but also teach me discipline, focus, and perseverance—traits that are equally valuable in the tech world. Fr fr ong</p>
     </div>
 
     <div class="gallery">
