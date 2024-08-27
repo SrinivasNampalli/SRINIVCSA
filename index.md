@@ -108,6 +108,19 @@ hide: true
                 var computerChoice = choices[Math.floor(Math.random()*3)];
                 if(playerChoice === computerChoice) {
                     result += "Round" + (i+1) + ": It's a tie!";
-                } else if (sssssss)
+                } else if (
+                    (playerChoice === "rock" && computerChoice === "scissors") ||
+                    (playerChoice === "paper" && computerChoice === "rock") ||
+                    (playerChoice === "scissors" && computerChoice === "paper")
+                ) {
+                    result += "Round " + (i+1) + ": You win! ";
+                } else {
+                    result += "Round " + (i+1) + ": Computer wins! ";
+                }
             }
+}
+            document.getElementById("result").textContent = result;
+        
+    </script>
 </body>
+   
