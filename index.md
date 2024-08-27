@@ -103,18 +103,11 @@ hide: true
    <script>
         function playGame(playerChoice) {
             var choices = ["rock", "paper", "scissors"];
-            var computerChoice = choices[Math.floor(Math.random() * 3)];
-            if (playerChoice === computerChoice) {
-                document.getElementById("result").textContent = "It's a tie!";
-            } else if (
-                (playerChoice === "rock" && computerChoice === "scissors") ||
-                (playerChoice === "paper" && computerChoice === "rock") ||
-                (playerChoice === "scissors" && computerChoice === "paper")
-            ) {
-                document.getElementById("result").textContent = "You win!";
-            } else {
-                document.getElementById("result").textContent = "Computer wins!";
+            var result = "";
+            for(var i = 0; i < 3; i++>) {
+                var computerChoice = choices[Math.floor(Math.random()*3)];
+                if(playerChoice === computerChoice) {
+                    result += "Round" + (i+1) + ": It's a tie!";
+                } else if (sssssss)
             }
-        }
-</script>
 </body>
