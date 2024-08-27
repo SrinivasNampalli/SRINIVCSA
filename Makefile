@@ -1,6 +1,6 @@
 # Configuration, override port with usage: make PORT=4200
 PORT ?= 4100
-REPO_NAME ?= CSAV1
+REPO_NAME ?= SRINIVCSA
 LOG_FILE = /tmp/jekyll$(PORT).log
 
 SHELL = /bin/bash -c
@@ -9,7 +9,7 @@ SHELL = /bin/bash -c
 # Phony Targets, makefile housekeeping for below definitions
 .PHONY: default server issues convert clean stop
 
-# List all .ipynb files in the _notebooks directory
+# List all .ipynb files in the _notebooks directoryss
 NOTEBOOK_FILES := $(shell find _notebooks -name '*.ipynb')
 
 # Specify the target directory for the converted Markdown files
