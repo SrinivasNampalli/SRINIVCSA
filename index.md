@@ -100,27 +100,28 @@ hide: true
     <button onclick="playGame('paper')">Paper</button>
     <button onclick="playGame('scissors')">Scissors</button>
     <p id="result"></p>
-   <script>
+    <script>
         function playGame(playerChoice) {
             var choices = ["rock", "paper", "scissors"];
             var result = "";
-            for(var i = 0; i < 3; i++>) {
-                var computerChoice = choices[Math.floor(Math.random()*3)];
-                if(playerChoice === computerChoice) {
-                    result += "Round" + (i+1) + ": It's a tie!";
+            for (var i = 0; i < 3; i++) {
+                var computerChoice = choices[Math.floor(Math.random() * 3)];
+                if (playerChoice === computerChoice) {
+                    result += "Round " + (i + 1) + ": It's a tie!<br>";
                 } else if (
                     (playerChoice === "rock" && computerChoice === "scissors") ||
                     (playerChoice === "paper" && computerChoice === "rock") ||
                     (playerChoice === "scissors" && computerChoice === "paper")
                 ) {
-                    result += "Round " + (i+1) + ": You win! ";
+                    result += "Round " + (i + 1) + ": You win!<br>";
                 } else {
-                    result += "Round " + (i+1) + ": Computer wins! ";
+                    result += "Round " + (i + 1) + ": Computer wins!<br>";
                 }
             }
-}
-            document.getElementById("result").textContent = result;
-        
+            document.getElementById("result").innerHTML = result;
+        }
     </script>
 </body>
+
+
    
