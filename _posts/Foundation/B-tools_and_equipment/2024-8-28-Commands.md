@@ -23,7 +23,7 @@ comments: True
 
     <h3>Cat Command</h3>
     <p>Prints the output of a certain file.</p>
-    <img src="images/notebooks/foundation/cat.png" alt="Cat command example">
+    <img src="images/notebooks/foundation/cat.jpg">
 
     <h3>Source myvenv</h3>
     <p>Activates a virtual environment.</p>

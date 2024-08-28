@@ -4,7 +4,6 @@ title: Student Home
 description: Home Page
 hide: true
 ---
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -74,9 +73,9 @@ hide: true
     </div>
 
     <div class="gallery">
-        <img src="images/notebooks/foundation/DALLE2024-08-2212.00.28-Adynamicandrealisticimageofadirtbikespeedingthrougharuggeddirt-coveredterrain.Thedirtbikeshouldbemid-jumpwithdustanddirtpar-ezgif.com-webp-to-jpg-converter.jpg" alt="Dirt Bike">
-        <img src="DALL·E 2024-08-22 12.00.40 - A dynamic and realistic image of a soccer player in action, wearing a modern soccer kit with a number on the back. The player is on a green soccer fie.webp" alt="Soccer Player">
-        <img src="images/notebooks/foundation/DALLE2024-08-2212.01.47-Adynamicandvibrantbattleroyalegamelobbyscenewithacharacterstandingintheforegroundholdingapickaxe.Thecharactershouldhaveastyliz-ezgif.com-webp-to-jpg-converter.jpg" alt="Battle Royale Lobby">
+        <img src="images/notebooks/foundation/DALL·E 2024-08-22 12.00.40 - A dynamic and realistic image of a soccer player in action, wearing a modern soccer kit with a number on the back. The player is on a green soccer fie.webp">
+        <img src="images/notebooks/foundation/DALLE2024-08-2810.51.18-Adynamicanddetailedimageofadirtbikeracingthrougharuggedoff-roadtrail.Thebikeiskickingupdirtasitspeedsthroughaforestedarea-ezgif.com-webp-to-jpg-converter.jpg" alt="Soccer Player">
+        <img src="images/notebooks/foundation/DALL·E 2024-08-22 12.01.47 - A dynamic and vibrant battle royale game lobby scene with a character standing in the foreground holding a pickaxe. The character should have a styliz.webp" alt="Battle Royale Lobby">
     </div>
 
     <div class="projects">
