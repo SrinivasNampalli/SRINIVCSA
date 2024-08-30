@@ -40,6 +40,8 @@ comments: True
     <h3>MKDIR</h3>
     <p>Creates a new directorys.</p>
     <img src="images/notebooks/foundation/mkdir.png" alt="MKDIR command example">
+
+    https://github.com/SrinivasNampalli/SRINIVCSA/issues/1
 </body>
 </html>
 

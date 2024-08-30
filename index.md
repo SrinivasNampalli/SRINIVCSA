@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Student Home 
+title: Srinivas Nampalli CSA
 description: Home Page
 hide: true
 ---
