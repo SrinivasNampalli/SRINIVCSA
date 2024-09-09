@@ -12,16 +12,16 @@ permalink: /about/
 <p>I’m also a huge fan of soccer, supporting teams like PSG and Chelsea. I have a strong interest in investing in stocks and learning more about the money market. Additionally, I'm saving up to buy a dirtbike in the near future!</p>
 
 <h2>Journey through Life</h2>
-<p>Here are a few milestones in my life and education journey:</p>
+<p>Here are a few milestones in my life and education journey: I have made andriod studio app, I have also made a website application and I have skills in java and python previously.</p>
 
 <ul>
-  <li>🏫 Middle and High School in [City]</li>
+  <li>🏫 Middle and High School in San Diego</li>
   <li>🎓 Currently studying to improve my software engineering skills, particularly using Android Studio</li>
   <li>🏢 Aspiring to become a software engineer and build my own apps</li>
 </ul>
 
-<h2>Culture, Family, and Fun</h2>
-<p>Family and culture are essential parts of my life. I enjoy spending time with my family, and I am passionate about learning from different cultures.</p>
+<h2>Video Game, Family, and Sports</h2>
+<p>I love watching and playing different sports that I found fun.</p>
 
 <p>My mother told me that I have Danish, English, and Irish heritage, and I have been looking into my family tree. My family is pretty big: I have been married twice, and my first wife passed away. We have had 5 kids, 4 adopted by me and 1 biological, and we are also blessed with three grandkids. My grandkids call me "Abuelito."</p>
 
@@ -35,8 +35,6 @@ permalink: /about/
   <img src="{{site.baseurl}}/images/basket.jpg" alt="Image 4" />
 </div>
 
-<h2>Places I've Lived</h2>
-<p>As a conversation starter, here are some of the places I've lived:</p>
 
 <div id="grid_container" class="grid-container">
   <!-- Flags and descriptions populated by JavaScript -->
@@ -45,10 +43,8 @@ permalink: /about/
 <script>
 var container = document.getElementById("grid_container");
 var living_in_the_world = [
-  {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-  {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-  {"flag": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Prancing_horse.svg/1024px-Prancing_horse.svg.png", "greeting": "Alright mate", "description": "England - 2 years"},
-  {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"}
+  
+  {"flag": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Prancing_horse.svg/1024px-Prancing_horse.svg.png", "greeting": "Favorite Racing Team", "description": "England - 2 years"},
 ];
 
 for (const location of living_in_the_world) {
