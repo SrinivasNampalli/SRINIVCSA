@@ -15,17 +15,16 @@ permalink: /about/
 <p>Here are a few milestones in my life and education journey: I have made andriod studio app, I have also made a website application and I have skills in java and python previously.</p>
 
 <ul>
-  <li>🏫 Middle and High School in San Diego</li>
-  <li>🎓 Currently studying to improve my software engineering skills, particularly using Android Studio</li>
-  <li>🏢 Aspiring to become a software engineer and build my own apps</li>
+  <li>🫂 Middle and High School in San Diego</li>
+  <li> 😁Currently studying to improve my software engineering skills, particularly using Android Studio</li>
+  <li>🧑‍🚒 Aspiring to become a software engineer and build my own apps</li>
 </ul>
 
 <h2>Video Game, Family, and Sports</h2>
 <p>I love watching and playing different sports that I found fun.</p>
 
-<p>My mother told me that I have Danish, English, and Irish heritage, and I have been looking into my family tree. My family is pretty big: I have been married twice, and my first wife passed away. We have had 5 kids, 4 adopted by me and 1 biological, and we are also blessed with three grandkids. My grandkids call me "Abuelito."</p>
+<p>As a Java developer who’s also into video games, basketball, and following soccer teams like Chelsea, my world feels like a blend of creativity, logic, and excitement. Coding in Java lets me bring ideas to life, especially with how versatile the language is. Whether I’m working on apps or tackling complex back-end systems, it always feels like I’m building something new—kind of like the games I play, where the code is the foundation for immersive worlds.</p>
 
-<p>The gallery below showcases some of my family, culture, and fun memories.</p>
 
 <h3>Gallery of Pics, scroll to the right for more ...</h3>
 <div class="image-gallery">
