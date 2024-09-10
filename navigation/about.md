@@ -7,9 +7,6 @@ permalink: /about/
 
 <h1>About Srinivas Nampalli</h1>
 
-<p>Hi, my name is Srinivas Nampalli. I love cars, motorsports, and playing video games. I am currently using Android Studio and working towards becoming a software engineer focused on app development.</p>
-
-<p>I’m also a huge fan of soccer, supporting teams like PSG and Chelsea. I have a strong interest in investing in stocks and learning more about the money market. Additionally, I'm saving up to buy a dirtbike in the near future!</p>
 
 <h2>Journey through Life</h2>
 <p>Here are a few milestones in my life and education journey: I have made andriod studio app, I have also made a website application and I have skills in java and python previously.</p>
@@ -103,5 +100,94 @@ for (const location of living_in_the_world) {
 }
 </style>
 
+<h1>Trivia Game</h1>
+<p>Answer the following trivia questions:</p>
 
-   
+<!-- Trivia Question 1 -->
+<div id="question1">
+    <p><strong>My favorite Soccer Team</strong></p>
+    <button class="option" onclick="checkAnswer(this, 'Chelsea', 'question1')">Paris</button>
+    <button class="option" onclick="checkAnswer(this, 'Chelsea', 'question1')">London</button>
+    <button class="option" onclick="checkAnswer(this, 'Chelsea', 'question1')">Chelsea</button>
+    <button class="option" onclick="checkAnswer(this, 'Chelsea', 'question1')">Berlin</button>
+</div>
+
+<!-- Trivia Question 2 -->
+<div id="question2">
+    <p><strong>Favorite Sport</strong></p>
+    <button class="option" onclick="checkAnswer(this, 'Soccer', 'question2')">Soccer</button>
+    <button class="option" onclick="checkAnswer(this, 'Soccer', 'question2')">Basketball</button>
+    <button class="option" onclick="checkAnswer(this, 'Soccer', 'question2')">Esport</button>
+    <button class="option" onclick="checkAnswer(this, 'Soccer', 'question2')">Saturn</button>
+</div>
+
+<!-- Trivia Question 3 -->
+<div id="question3">
+    <p><strong>What is my favorite programming language?</strong></p>
+    <button class="option" onclick="checkAnswer(this, 'Java', 'question3')">Java</button>
+    <button class="option" onclick="checkAnswer(this, 'Java', 'question3')">Rust</button>
+    <button class="option" onclick="checkAnswer(this, 'Java', 'question3')">Python</button>
+    <button class="option" onclick="checkAnswer(this, 'Java', 'question3')">C++</button>
+</div>
+
+<script>
+    function checkAnswer(button, correctAnswer, questionId) {
+        var allOptions = document.querySelectorAll("#" + questionId + " .option");
+        var userAnswer = button.innerHTML;
+        
+        allOptions.forEach(function(option) {
+            option.disabled = true;  // Disable all options after a selection
+            if (option.innerHTML === correctAnswer) {
+                option.style.backgroundColor = 'green';  // Correct answer turns green
+            } else {
+                option.style.backgroundColor = 'red';  // Incorrect answers turn red
+            }
+        });
+
+        // Add feedback for the selected answer
+        if (userAnswer === correctAnswer) {
+            button.innerHTML += " ✔️ Correct!";
+        } else {
+            button.innerHTML += " ❌ Incorrect!";
+        }
+    }
+</script>
+
+<style>
+    .option {
+        background-color: #ddd;
+        padding: 10px;
+        margin: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .option:disabled {
+        cursor: not-allowed;
+    }
+</style>
+<h2>Click on the Image to Zoom In!</h2>
+<div class="gallery">
+    <img id="img1" src="https://github.com/user-attachments/assets/e750d0c7-fd9e-4ca7-8275-dc7b8d422466" alt="Image 1" width="200px" height="150px" onclick="zoomImage('img1')">
+    <img id="img2" src="https://github.com/user-attachments/assets/fd277431-8fed-4024-b859-0c749c075867" alt="Image 2" width="200px" height="150px" onclick="zoomImage('img2')">
+    <img id="img3" src="https://github.com/user-attachments/assets/336ce699-4a41-4c3a-8be5-9b294d3aa0ca" alt="Image 3" width="200px" height="150px" onclick="zoomImage('img3')">
+</div>
+
+<style>
+    .gallery img {
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .zoomed {
+        transform: scale(1.5);
+    }
+</style>
+
+<script>
+    function zoomImage(imageId) {
+        var imgElement = document.getElementById(imageId);
+        imgElement.classList.toggle('zoomed');
+    }
+</script>
