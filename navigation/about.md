@@ -40,7 +40,7 @@ permalink: /about/
 var container = document.getElementById("grid_container");
 var living_in_the_world = [
   
-  {"flag": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Prancing_horse.svg/1024px-Prancing_horse.svg.png", "greeting": "Favorite Racing Team", "description": "England - 2 years"},
+  {"flag": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Prancing_horse.svg/1024px-Prancing_horse.svg.png", "greeting": "Favorite Racing Team", "description": "Ferrari F1"},
 ];
 
 for (const location of living_in_the_world) {
