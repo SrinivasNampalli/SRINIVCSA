@@ -6,8 +6,6 @@ toc: False
 courses: {'csa': {'week': 13}}
 comments: True
 ---
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,6 +16,15 @@ comments: True
     <h2>Reflection on the Solution</h2>
     <p>The solution for the <strong>isNonZeroRow</strong> method uses a straightforward loop to check for zero values in a given row. The implementation is efficient, iterating only over the specific row index provided as input. By returning <code>false</code> upon encountering the first zero, the method avoids unnecessary further checks, optimizing performance.</p>
     <p>The <strong>resize</strong> method builds upon <code>isNonZeroRow</code> and utilizes a helper method, <code>numNonZeroRows</code>, to determine the number of rows that will be included in the new 2D array. The nested loops efficiently copy data from valid rows into the new array while maintaining the order. Both solutions adhere to the problem constraints and postconditions, ensuring immutability of the original array and correctness of the logic.</p>
+
+    <h2>Possible Errors or Pitfalls</h2>
+    <ul>
+        <li><strong>Array Index Out of Bounds:</strong> If the input 2D array is jagged (rows of different lengths), accessing <code>array2D[0].length</code> in <code>isNonZeroRow</code> or <code>resize</code> could lead to an <code>ArrayIndexOutOfBoundsException</code>. To prevent this, ensure the method checks the length of the specific row.</li>
+        <li><strong>Null Array:</strong> If the input 2D array or any of its rows are <code>null</code>, the method will throw a <code>NullPointerException</code>. Adding checks for <code>null</code> inputs would enhance the solution's robustness.</li>
+        <li><strong>Mutability of Input:</strong> While the problem constraints state immutability, ensuring the code does not accidentally modify the original array (e.g., through direct references) is critical.</li>
+        <li><strong>Efficiency in Large Arrays:</strong> For very large 2D arrays, iterating through all elements could impact performance. Optimization techniques like using parallel streams could improve efficiency in real-world scenarios.</li>
+    </ul>
+
     <h2>Solution</h2>
     <pre>
 public static boolean isNonZeroRow(int[][] array2D, int r) {
@@ -65,3 +72,4 @@ public static int[][] resize(int[][] array2D) {
     </pre>
 </body>
 </html>
+
