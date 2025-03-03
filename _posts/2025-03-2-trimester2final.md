@@ -68,8 +68,68 @@ comments: True
                 <p><strong>Planning</strong> <a href="https://srinivasnampalli.github.io/SRINIVCSA/2025/01/11/planning.html">Planning for the Trimester</a></p>
             </div>
         </div>
+         <div class="section">
+            <h2>Next Steps</h2>
+            <div class="sub-section">
+                <h3>Strengths</h3>
+                <ul>
+                    <li>Consistently reliable and dedicated to completing tasks.</li>
+                    <li>Eager to learn and improve technical skills.</li>
+                    <li>Open to constructive criticism and willing to adapt.</li>
+                    <li>Incorporates team feedback to refine project direction.</li>
+                </ul>
+                <h3>Weaknesses (Soft Skills)</h3>
+                <ul>
+                    <li>Hesitant to step out of my comfort zone.</li>
+                    <li>Struggle with assertiveness in communication.</li>
+                </ul>
+                <h3>Weaknesses (Hard Skills)</h3>
+                <ul>
+                    <li>Over-reliance on ChatGPT for problem-solving.</li>
+                    <li>Struggle with Object-Oriented Programming (OOP) concepts.</li>
+                    <li>Tend to start implementing before thoroughly planning.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Personal Development</h2>
+            <div class="sub-section">
+                <h3>Interests</h3>
+                <p>Work on USACO and learn some app devevelopment.</p>
+                <h3>Classes</h3>
+                <p>Interested in taking extracurricular courses or guides that will help me understand AI related features </p>
+                <h3>Internship</h3>
+                <p>Have an internship this summer and aim to maximize learning opportunities and professional growth.</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Project Goals & Implementation</h2>
+            <div class="sub-section">
+                <h3>Goal</h3>
+                <p>Transition from frontend-based storage of questions to a fully backend-driven model.</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Reflection & Documentation</h2>
+            <div class="sub-section">
+                <h3>Achievements</h3>
+                <ul>
+                    <li>Maintained comprehensive documentation of development processes, including errors, pull request notes, and project roadmaps. <strong>(5/5)</strong></li>
+                    <li>Successfully applied Object-Oriented Programming principles in backend development while integrating quiz question storage and retrieval. <strong>(2/2)</strong></li>
+                    <li>Created <code>draw.io</code> visualizations for both backend and frontend architecture. <strong>(1/1)</strong></li>
+                    <li>Documented strategies for FRQs and analyzed mistakes from MCQs to improve problem-solving skills. <strong>(1/1)</strong></li>
+                    <li>Reflected on strengths, weaknesses, and future goals, though deeper engagement in peer projects could be improved. <strong>(0.0/1)</strong></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Final Evaluation</h2>
+            <p><strong>Overall Score:</strong> <span class="highlight">9.0/10</span></p>
+            <p>Through consistent effort, documentation, and technical progress, significant improvements were made across multiple areas. Future focus will be on strengthening OOP skills, improving assertiveness in communication, and enhancing backend efficiency.</p>
+        </div>
 </body>
 </html>
+
 
 
 
