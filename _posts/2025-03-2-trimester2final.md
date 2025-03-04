@@ -98,7 +98,7 @@ comments: True
     </div>
     <div class="section">
         <h2>Final Evaluation</h2>
-        <p><strong>Overall Score:</strong> <span class="highlight">9.0/10</span></p>
+        <p><strong>Overall Score:</strong> <span class="highlight">9.03/10</span></p>
         <p>Through consistent effort, documentation, and technical progress, significant improvements were made. Future focus will be on strengthening OOP skills, improving assertiveness in communication, and enhancing backend efficiency.</p>
     </div>
 </body>
@@ -114,7 +114,7 @@ comments: True
         <tr>
             <td>5 Things I Did Over 12 Weeks</td>
             <td>5</td>
-            <td>4.60</td>
+            <td>4.62</td>
             <td>
                 I had a burndown list, and me, Nitin, Adityadocumented our progress and updates on our features as we were working on the same thing (Student Tables).
                 I added new features to make our project feel more updated and actually have a impactful change. 
