@@ -16,7 +16,6 @@ Areas for Improvement:
 Deepening my understanding of method logic and flow.
 
 Practicing method overloading and parameter passing.
-
 Action Plan: Work on exercises that involve writing and tracing methods to enhance logical reasoning.
 
 2. Classes & Inheritance
