@@ -10,36 +10,12 @@ const hexColors = [ '#3357FF', '#FF33F5', '#F5FF33', '#33FFF5', '#F533FF'];
 // RGB color object examples
 const rgbColors = [
     { r: 255, g: 0, b: 0 },    // Red
-    { r: 0, g: 255, b: 0 },    // Green
-    { r: 0, g: 0, b: 255 },    // Blue
+    { r: 0, g: 255, b: 0 },    // Green   // Blue
  // Magenta
 ];
 
 // Function to get random color from basic colors
-function getRandomBasicColor() {
-    const randomIndex = Math.floor(Math.random() * basicColors.length);
-    return basicColors[randomIndex];
-}
 
-// Function to get random hex color
-function getRandomHexColor() {
-    const randomIndex = Math.floor(Math.random() * hexColors.length);
-    return hexColors[randomIndex];
-}
-
-// Function to convert RGB to hex
-function rgbToHex(r, g, b) {
-    return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
-}
-
-// Function to generate random RGB color
-function generateRandomRGB() {
-    return {
-        r: Math.floor(Math.random() * 256),
-        g: Math.floor(Math.random() * 256),
-        b: Math.floor(Math.random() * 256)
-    };
-}
 
 // Function to display color information
 function displayColorInfo(colorName, hexValue) {
