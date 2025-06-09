@@ -15,21 +15,7 @@ function getRandomColor() {
     return colors[randomIndex];
 }
 
-// Object with random properties
-const randomObject = {
-    name: "Random Object",
-    value: 42,
-    isActive: true,
-    description: "This is a random object with various properties"
-};
-
-// Function to display object info
-function displayObjectInfo(obj) {
-    console.log(`Name: ${obj.name}`);
-    console.log(`Value: ${obj.value}`);
-    console.log(`Active: ${obj.isActive}`);
-    console.log(`Description: ${obj.description}`);
-}
+// Object with random propertie
 
 // Loop to generate random numbers
 for (let i = 0; i < 5; i++) {
