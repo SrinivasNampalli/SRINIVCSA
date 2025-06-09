@@ -10,10 +10,7 @@ function generateRandomNumber(min, max) {
 const colors = [ 'green', 'yellow', 'purple'];
 
 // Function to get random color
-function getRandomColor() {
-    const randomIndex = generateRandomNumber(0, colors.length - 1);
-    return colors[randomIndex];
-}
+
 
 // Object with random propertie
 
