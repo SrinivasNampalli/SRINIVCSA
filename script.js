@@ -43,7 +43,3 @@ if (typeof document !== 'undefined') {
         }
     });
 }
-
-console.log("JavaScript Color utilities loaded successfully!");
-console.log(`Total basic colors available: ${basicColors.length}`);
-console.log(`Total hex colors available: ${hexColors.length}`); 
