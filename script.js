@@ -17,34 +17,7 @@ const rgbColors = [
 // Function to get random color from basic colors
 
 
-// Function to display color information
-function displayColorInfo(colorName, hexValue) {
-    console.log(`Color: ${colorName}`);
-    console.log(`Hex Value: ${hexValue}`);
-    console.log("-------------------");
-}
 
-// Display some color examples
-console.log("Basic Colors Available:");
-basicColors.forEach(color => console.log(`- ${color}`));
-
-console.log("\nHex Colors Available:");
-hexColors.forEach(hex => console.log(`- ${hex}`));
-
-// Generate and display random colors
-console.log("\nRandom Color Examples:");
-for (let i = 0; i < 5; i++) {
-    const randomBasic = getRandomBasicColor();
-    const randomHex = getRandomHexColor();
-    const randomRGB = generateRandomRGB();
-    const rgbHex = rgbToHex(randomRGB.r, randomRGB.g, randomRGB.b);
-    
-    console.log(`Random Basic Color ${i + 1}: ${randomBasic}`);
-    console.log(`Random Hex Color ${i + 1}: ${randomHex}`);
-    console.log(`Random RGB Color ${i + 1}: rgb(${randomRGB.r}, ${randomRGB.g}, ${randomRGB.b})`);
-    console.log(`RGB to Hex: ${rgbHex}`);
-    console.log("---");
-}
 
 // Color manipulation functions
 function lightenColor(hex, percent) {
