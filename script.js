@@ -5,7 +5,7 @@ console.log("Welcome to JavaScript Color Management!");
 const basicColors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'black', 'white', 'gray'];
 
 // Array of hex color codes
-const hexColors = ['#FF5733', '#33FF57', '#3357FF', '#FF33F5', '#F5FF33', '#33FFF5', '#F533FF'];
+const hexColors = [ '#3357FF', '#FF33F5', '#F5FF33', '#33FFF5', '#F533FF'];
 
 // RGB color object examples
 const rgbColors = [
