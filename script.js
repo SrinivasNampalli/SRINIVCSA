@@ -7,7 +7,7 @@ function generateRandomNumber(min, max) {
 }
 
 // Array of random colors
-const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink'];
+const colors = [ 'blue', 'green', 'yellow', 'purple', 'orange', 'pink'];
 
 // Function to get random color
 function getRandomColor() {
