@@ -1,92 +1,101 @@
-// JavaScript file with random functions and code lines
-console.log("Welcome to the JavaScript file!");
+// JavaScript Color Utilities and Functions
+console.log("Welcome to JavaScript Color Management!");
 
-// Function to generate random numbers
-function generateRandomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+// Array of basic colors
+const basicColors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'black', 'white', 'gray'];
+
+// Array of hex color codes
+const hexColors = ['#FF5733', '#33FF57', '#3357FF', '#FF33F5', '#F5FF33', '#33FFF5', '#F533FF'];
+
+// RGB color object examples
+const rgbColors = [
+    { r: 255, g: 0, b: 0 },    // Red
+    { r: 0, g: 255, b: 0 },    // Green
+    { r: 0, g: 0, b: 255 },    // Blue
+    { r: 255, g: 255, b: 0 },  // Yellow
+    { r: 255, g: 0, b: 255 },  // Magenta
+];
+
+// Function to get random color from basic colors
+function getRandomBasicColor() {
+    const randomIndex = Math.floor(Math.random() * basicColors.length);
+    return basicColors[randomIndex];
 }
 
-// Array of random colors
-const colors = [ 'green', 'yellow', 'purple'];
+// Function to get random hex color
+function getRandomHexColor() {
+    const randomIndex = Math.floor(Math.random() * hexColors.length);
+    return hexColors[randomIndex];
+}
 
-// Function to get random color
+// Function to convert RGB to hex
+function rgbToHex(r, g, b) {
+    return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+}
 
+// Function to generate random RGB color
+function generateRandomRGB() {
+    return {
+        r: Math.floor(Math.random() * 256),
+        g: Math.floor(Math.random() * 256),
+        b: Math.floor(Math.random() * 256)
+    };
+}
 
-// Object with random propertie
+// Function to display color information
+function displayColorInfo(colorName, hexValue) {
+    console.log(`Color: ${colorName}`);
+    console.log(`Hex Value: ${hexValue}`);
+    console.log("-------------------");
+}
 
-// Loop to generate random numbers
+// Display some color examples
+console.log("Basic Colors Available:");
+basicColors.forEach(color => console.log(`- ${color}`));
+
+console.log("\nHex Colors Available:");
+hexColors.forEach(hex => console.log(`- ${hex}`));
+
+// Generate and display random colors
+console.log("\nRandom Color Examples:");
 for (let i = 0; i < 5; i++) {
-    const randomNum = generateRandomNumber(1, 100);
-    console.log(`Random number ${i + 1}: ${randomNum}`);
+    const randomBasic = getRandomBasicColor();
+    const randomHex = getRandomHexColor();
+    const randomRGB = generateRandomRGB();
+    const rgbHex = rgbToHex(randomRGB.r, randomRGB.g, randomRGB.b);
+    
+    console.log(`Random Basic Color ${i + 1}: ${randomBasic}`);
+    console.log(`Random Hex Color ${i + 1}: ${randomHex}`);
+    console.log(`Random RGB Color ${i + 1}: rgb(${randomRGB.r}, ${randomRGB.g}, ${randomRGB.b})`);
+    console.log(`RGB to Hex: ${rgbHex}`);
+    console.log("---");
 }
 
-// Arrow function example
-const multiply = (a, b) => a * b;
-
-// Async function example
-async function fetchData() {
-    console.log("Fetching data...");
-    return new Promise(resolve => {
-        setTimeout(() => {
-            resolve("Data fetched successfully!");
-        }, 1000);
-    });
+// Color manipulation functions
+function lightenColor(hex, percent) {
+    const num = parseInt(hex.replace("#", ""), 16);
+    const amt = Math.round(2.55 * percent);
+    const R = (num >> 16) + amt;
+    const G = (num >> 8 & 0x00FF) + amt;
+    const B = (num & 0x0000FF) + amt;
+    return "#" + (0x1000000 + (R < 255 ? R < 1 ? 0 : R : 255) * 0x10000 +
+        (G < 255 ? G < 1 ? 0 : G : 255) * 0x100 +
+        (B < 255 ? B < 1 ? 0 : B : 255))
+        .toString(16).slice(1);
 }
 
-// Event listener example (if running in browser)
+// Apply colors to elements (if in browser environment)
 if (typeof document !== 'undefined') {
     document.addEventListener('DOMContentLoaded', function() {
-        console.log("DOM is ready!");
+        console.log("Applying colors to page elements...");
+        const body = document.body;
+        if (body) {
+            body.style.backgroundColor = getRandomHexColor();
+            console.log(`Body background color set to: ${body.style.backgroundColor}`);
+        }
     });
 }
 
-// Class example
-class RandomClass {
-    constructor(name) {
-        this.name = name;
-        this.createdAt = new Date();
-    }
-    
-    greet() {
-        console.log(`Hello from ${this.name}!`);
-    }
-    
-    getAge() {
-        const now = new Date();
-        return now - this.createdAt;
-    }
-}
-
-// Create instance and call methods
-const instance = new RandomClass("MyInstance");
-instance.greet();
-
-// More random variables
-let counter = 0;
-const maxCount = 10;
-const isEnabled = true;
-
-// Another loop
-while (counter < maxCount) {
-    counter++;
-    if (counter % 2 === 0) {
-        console.log(`Even number: ${counter}`);
-    } else {
-        console.log(`Odd number: ${counter}`);
-    }
-}
-
-// Final message
-console.log("JavaScript file execution completed!");
-console.log(`Final counter value: ${counter}`);
-console.log(`Random color: ${getRandomColor()}`);
-
-// Export for module usage
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = {
-        generateRandomNumber,
-        getRandomColor,
-        RandomClass,
-        multiply
-    };
-} 
+console.log("JavaScript Color utilities loaded successfully!");
+console.log(`Total basic colors available: ${basicColors.length}`);
+console.log(`Total hex colors available: ${hexColors.length}`); 
