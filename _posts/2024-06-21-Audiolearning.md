@@ -13,7 +13,7 @@ As I delve deeper into the world of web development, I've come to realize that a
 
 ## The Foundation: Understanding Web Audio
 
-![Image](https://github.com/user-attachments/assets/13c97499-02be-4712-a6c8-75c182871053)
+![Image](https://github.com/user-attachments/assets/65edda85-5316-441a-a2b7-aee98c3d9f82)
 
 The journey begins with understanding how JavaScript can manipulate audio in the browser. The Web Audio API provides us with powerful tools to create, process, and analyze audio in real-time. What strikes me most is how this technology can transform passive listening into active, interactive learning experiences.
 
@@ -37,7 +37,9 @@ function initializeAudioLearning() {
 
 ## Processing and Pattern Recognition
 
-![Image](https://github.com/user-attachments/assets/404efd52-9693-4c63-a125-6c07931a6694)
+![Image](https://github.com/user-attachments/assets/aaede8a1-db6b-46e0-8ce3-df9fae247541)
+
+![Image](https://github.com/user-attachments/assets/ace11a25-9244-45b8-80e6-5a4153fb1665)
 
 The more I work with audio processing in JavaScript, the more I appreciate how sound waves carry incredible amounts of information. Through frequency analysis and pattern matching, we can create systems that understand not just what is being said, but how it's being said.
 
@@ -63,8 +65,6 @@ function analyzeAudioPattern(audioData) {
 ```
 
 ## The Interactive Learning Revolution
-
-![Image](https://github.com/user-attachments/assets/c2d01f22-eaa8-42f5-bbe7-2e1ab0bf493a)
 
 What truly excites me about audio learning in JavaScript is its potential for creating immersive, interactive educational experiences. Unlike traditional static content, audio-driven learning can respond, adapt, and evolve in real-time based on learner input.
 
